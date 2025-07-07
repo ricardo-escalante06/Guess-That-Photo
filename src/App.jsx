@@ -14,7 +14,6 @@ import CircularProgress from '@mui/material/CircularProgress';
 
 
 function App() {
-  // const [count, setCount] = useState(0)
   const [imagePages, setImagePages] = React.useState({});
   const [imageUrl, setImageUrl] = React.useState(null);
   const [category, setCategory] = React.useState("Parades");
