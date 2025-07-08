@@ -338,6 +338,7 @@ function App() {
             setSubmitted(false);
             setRoundPoints(0);
             setDistance(null);
+            setOpen(true);
           }}
         >
           Want to restart?
