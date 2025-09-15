@@ -1,12 +1,43 @@
-# React + Vite
+# Guess-That-Photo 🌍 🕒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Guess-That-Photo** is an interactive web game built with **React** where users test their knowledge of world geography and time by guessing the location and approximate time of Wikimedia images.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- 🎯 **Interactive Gameplay**: Users guess the location and time of photos from Wikimedia Commons.  
+- 🗺️ **Map Integration**: Built with [Leaflet](https://leafletjs.com/) for intuitive geographic selections on a live map.  
+- 🖼️ **Dynamic Image Loading**: Random images pulled from Wikimedia Commons to keep the game fresh.  
+- ⚛️ **React-Powered**: Component-based architecture for dynamic rendering and smooth UI updates.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Demo
+
+[Play Guess-That-Photo](https://ricardo-escalante06.github.io/Guess-That-Photo/)  
+
+---
+
+## How to Play
+
+1. View the displayed photo.  
+2. Click on the map to select where you think the photo was taken.  
+3. Optionally, guess the approximate time of day or year.  
+4. Submit your guess to see how close you were!  
+
+---
+
+## Technologies Used
+
+- **Frontend**: React, HTML, CSS, JavaScript  
+- **Libraries**: [Leaflet.js](https://leafletjs.com/) for interactive maps  
+- **API**: Wikimedia Commons  
+
+---
+
+## Installation / Local Setup
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/guess-that-photo.git
